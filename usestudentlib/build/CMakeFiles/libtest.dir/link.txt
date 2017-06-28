@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/libtest.dir/libtest.cpp.o  -o libtest  -L/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build -rdynamic -ltestStudent -Wl,-rpath,/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build 

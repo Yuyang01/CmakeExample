@@ -1,0 +1,7 @@
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/install.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/list_install_components.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/rebuild_cache.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/testStudentt.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/install/strip.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/install/local.dir
+/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/edit_cache.dir
