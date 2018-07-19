@@ -1,0 +1,4 @@
+compile this program with 
+
+ g++ -I /usr/local/include/eigen3/ solver.cpp -o solver
+

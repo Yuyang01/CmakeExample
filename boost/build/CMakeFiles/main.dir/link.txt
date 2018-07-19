@@ -1,0 +1,1 @@
+/usr/local/bin/clang-omp++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/main.dir/src/boost.cpp.o  -o main /usr/local/lib/libboost_thread-mt.a /usr/local/lib/libboost_system-mt.a /usr/local/lib/libboost_chrono-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_atomic-mt.a 
