@@ -6,8 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/Yuyang/Documents/programing/Cpp/boost/src/boost.cpp
+/Users/Yuyang/Documents/programing/cmake_tutorial/boost/src/boost.cpp
 boost/thread/thread.hpp
+-
+boost/thread/scoped_thread.hpp
+-
+boost/chrono.hpp
+-
+boost/bind.hpp
 -
 iostream
 -
@@ -6960,6 +6966,22 @@ boost/config/abi_prefix.hpp
 boost/config/abi_suffix.hpp
 -
 
+/usr/local/include/boost/thread/scoped_thread.hpp
+boost/thread/detail/config.hpp
+-
+boost/thread/detail/delete.hpp
+-
+boost/thread/detail/move.hpp
+-
+boost/thread/thread_functors.hpp
+-
+boost/thread/thread_only.hpp
+-
+boost/config/abi_prefix.hpp
+-
+boost/config/abi_suffix.hpp
+-
+
 /usr/local/include/boost/thread/shared_mutex.hpp
 boost/thread/detail/config.hpp
 -
@@ -6980,6 +7002,20 @@ boost/thread/lockable_traits.hpp
 boost/thread/thread_only.hpp
 -
 boost/thread/detail/thread_group.hpp
+-
+
+/usr/local/include/boost/thread/thread_functors.hpp
+boost/thread/detail/config.hpp
+-
+boost/thread/detail/delete.hpp
+-
+boost/thread/detail/move.hpp
+-
+boost/thread/thread_only.hpp
+-
+boost/config/abi_prefix.hpp
+-
+boost/config/abi_suffix.hpp
 -
 
 /usr/local/include/boost/thread/thread_only.hpp

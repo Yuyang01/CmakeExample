@@ -679,8 +679,10 @@ CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/pthread/pth
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/pthread/shared_mutex.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/pthread/thread_data.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/pthread/thread_heap_alloc.hpp
+CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/scoped_thread.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/shared_mutex.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/thread.hpp
+CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/thread_functors.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/thread_only.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/thread_time.hpp
 CMakeFiles/main.dir/src/boost.cpp.o: /usr/local/include/boost/thread/v2/shared_mutex.hpp

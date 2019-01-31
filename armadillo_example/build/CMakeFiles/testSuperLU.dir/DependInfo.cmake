@@ -4,13 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Yuyang/Documents/programing/cmake_demo/armadillo_example/src/main.cpp" "/Users/Yuyang/Documents/programing/cmake_demo/armadillo_example/build/CMakeFiles/testSuperLU.dir/src/main.cpp.o"
+  "/Users/Yuyang/Documents/coding/cmake_tutorial/armadillo_example/src/main.cpp" "/Users/Yuyang/Documents/coding/cmake_tutorial/armadillo_example/build/CMakeFiles/testSuperLU.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/include"
   )
 
 # Targets to which this target links.

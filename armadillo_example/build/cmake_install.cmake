@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Yuyang/Documents/programing/cmake_demo/armadillo_example
+# Install script for directory: /Users/Yuyang/Documents/coding/cmake_tutorial/armadillo_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Yuyang/Documents/programing/cmake_demo/armadillo_example/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Yuyang/Documents/coding/cmake_tutorial/armadillo_example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

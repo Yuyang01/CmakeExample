@@ -1,1 +1,0 @@
-/usr/bin/g++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libtestStudentt.so -o libtestStudentt.so CMakeFiles/testStudentt.dir/src/Student.cpp.o 

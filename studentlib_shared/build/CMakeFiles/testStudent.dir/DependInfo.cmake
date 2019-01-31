@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/src/Student.cpp" "/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/CMakeFiles/testStudentt.dir/src/Student.cpp.o"
+  "/Users/Yuyang/Documents/programing/cmake-tutorial/studentlib_shared/src/Student.cpp" "/Users/Yuyang/Documents/programing/cmake-tutorial/studentlib_shared/build/CMakeFiles/testStudent.dir/src/Student.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

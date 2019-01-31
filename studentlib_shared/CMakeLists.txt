@@ -13,4 +13,4 @@ add_library(testStudent SHARED ${SOURCES})
 
 #Set the location for library installation -- i.e., /usr/lib in this case
 # not really necessary in this example. Use "sudo make install" to apply
-install(TARGETS testStudent DESTINATION /usr/lib)
+#install(TARGETS testStudent DESTINATION /usr/lib)

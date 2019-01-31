@@ -1,0 +1,1 @@
+/usr/local/bin/clang-omp++ -O3 -DNDEBUG -dynamiclib -Wl,-headerpad_max_install_names  -o libtestStudent.dylib -install_name /Users/Yuyang/Documents/programing/cmake-tutorial/studentlib_shared/build/libtestStudent.dylib CMakeFiles/testStudent.dir/src/Student.cpp.o 

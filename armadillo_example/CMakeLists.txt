@@ -1,4 +1,4 @@
-
+#https://www.jianshu.com/p/55be9d4fc033
 
 cmake_minimum_required(VERSION 2.8.9)
 project(testSuperLU)
@@ -14,13 +14,15 @@ message("PROJECT_BINARY_DIR= ${PROJECT_BINARY_DIR}")
 #Can manually add the sources using the set command as follows:
 #set(SOURCES src/mainapp.cpp src/Student.cpp)
 
-
 find_package(Armadillo REQUIRED)
-include_directories(${ARMADILLO_INCLUDE_DIRS})
+include_directories(testSuperLU INTERFACE ${ARMADILLO_INCLUDE_DIRS})
 message("ARMADILLO_INCLUDE_DIRS= ${ARMADILLO_INCLUDE_DIRS}")
-
 #However, the file(GLOB...) allows for wildcard additions:
 file(GLOB SOURCES "src/*.cpp")
 
 add_executable(testSuperLU ${SOURCES})
+
+#find_package(Armadillo REQUIRED)
+#target_include_directories(testSuperLU INTERFACE ${ARMADILLO_INCLUDE_DIRS})
+#message("ARMADILLO_INCLUDE_DIRS= ${ARMADILLO_INCLUDE_DIRS}")
 target_link_libraries(testSuperLU ${ARMADILLO_LIBRARIES})

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Yuyang/Documents/programing/Cpp/boost/src/boost.cpp" "/Users/Yuyang/Documents/programing/Cpp/boost/build/CMakeFiles/main.dir/src/boost.cpp.o"
+  "/Users/Yuyang/Documents/programing/cmake_tutorial/boost/src/boost.cpp" "/Users/Yuyang/Documents/programing/cmake_tutorial/boost/build/CMakeFiles/main.dir/src/boost.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

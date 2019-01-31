@@ -1,4 +1,4 @@
-# Install script for directory: /home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared
+# Install script for directory: /Users/Yuyang/Documents/programing/cmake-tutorial/studentlib_shared
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,33 +27,9 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/libtestStudentt.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libtestStudentt.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/usr/lib/libtestStudentt.so"
-         RPATH "")
-  endif()
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/libtestStudentt.so")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/usr/lib" TYPE SHARED_LIBRARY FILES "/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/libtestStudentt.so")
-  if(EXISTS "$ENV{DESTDIR}/usr/lib/libtestStudentt.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/usr/lib/libtestStudentt.so")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/usr/lib/libtestStudentt.so")
-    endif()
-  endif()
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yuyang/Downloads/exploringBB/extras/cmake/studentlib_shared/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Yuyang/Documents/programing/cmake-tutorial/studentlib_shared/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
