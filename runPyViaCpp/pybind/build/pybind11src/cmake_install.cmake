@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yuyang01/Documents/coding/runPyViaCpp/pybind/pybind11src
+# Install script for directory: /Users/yuyang01/Documents/coding/cmake_tutorial/runPyViaCpp/pybind/pybind11src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

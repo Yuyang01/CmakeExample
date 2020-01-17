@@ -33,6 +33,12 @@ int main() {
        import time
        import pandas as pd
     )", py::globals(), locals);
+    
+        // Use Python to import python functions
+    //https://pybind11.readthedocs.io/en/stable/advanced/pycpp/object.html#accessing-python-libraries-from-c
+py::object pyScript = py::module::import("pyScript");
+py::object pr = pyScript.attr("printme");
+pr("dd");
         
     return 0;
 }

@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacO
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/yuyang01/Documents/coding/runPyViaCpp/pybind/pybind11src/include -I/Users/yuyang01/miniconda3/envs/py37/include/python3.7m 
+CXX_INCLUDES = -I/Users/yuyang01/Documents/coding/cmake_tutorial/runPyViaCpp/pybind/pybind11src/include -I/Users/yuyang01/miniconda3/envs/py37/include/python3.7m 
 
